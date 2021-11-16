@@ -7,6 +7,20 @@
 - <a href="https://developer.huawei.com/consumer/en/hms/huawei-accountkit/" target="_blank">HMS Account Kit</a>
 - <a href="https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-introduction-0000001053732605" target="_blank">HMS Auth Service</a>
 
+HMS Account Kit provides you with simple, secure, and quick sign-in and authorization functions. Instead of entering accounts and passwords and waiting for authentication, users can just tap the Sign in with HUAWEI ID button to quickly and securely sign in to your app with their HUAWEI IDs.
+
+Auth Service provides an SDK and backend services, supports multiple authentication modes, and provides a management console, enabling you to easily develop and manage user authentication
+
+This demo project provides demonstration for following scenarios:
+
+- ID-Token Mode Sign In.
+- Authorization Code Mode Sign In.
+- Silent Sign In
+- Sign Out.
+- Cancel Authorization.
+
+The service logic of ID-Token Mode Sign In and Authorization Code Mode Sign In are implemented in AccountActivity.java.
+
 ## Clone the Repository
 
 ### With SSH
