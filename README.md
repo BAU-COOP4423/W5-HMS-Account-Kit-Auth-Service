@@ -4,8 +4,7 @@
 ![Latest Version](https://img.shields.io/badge/latestVersion-1.0-yellow) ![Java](https://img.shields.io/badge/language-java-blue) ![Minimum SDK Version](https://img.shields.io/badge/minSDK-21-orange)
 
 ## Used Technologies
-- <a href="https://developer.huawei.com/consumer/en/hms/huawei-accountkit/" target="_blank">HMS Account Kit</a>
-- <a href="https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-introduction-0000001053732605" target="_blank">HMS Auth Service</a>
+- Documentation can be found at these <a href="https://developer.huawei.com/consumer/en/hms/huawei-accountkit/" target="_blank">HMS Account Kit</a> and <a href="https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-introduction-0000001053732605" target="_blank">HMS Auth Service</a>
 
 HMS Account Kit provides you with simple, secure, and quick sign-in and authorization functions. Instead of entering accounts and passwords and waiting for authentication, users can just tap the Sign in with HUAWEI ID button to quickly and securely sign in to your app with their HUAWEI IDs.
 
