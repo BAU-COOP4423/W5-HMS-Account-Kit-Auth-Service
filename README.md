@@ -1,52 +1,29 @@
-# Accountkit-Android-sample
+# (W5) HMS Account Kit Auth Service
+5th week content of COOP4423 course
 
-English | [中文](https://github.com/HMS-Core/huawei-account-demo/blob/master/Account-Client-Java-Demo/Account_Demo_AndroidStudio/README_ZH.md) 
+![Latest Version](https://img.shields.io/badge/latestVersion-1.0-yellow) ![Java](https://img.shields.io/badge/language-java-blue) ![Minimum SDK Version](https://img.shields.io/badge/minSDK-21-orange)
 
+## Used Technologies
+- <a href="https://developer.huawei.com/consumer/en/hms/huawei-accountkit/" target="_blank">HMS Account Kit</a>
+- <a href="https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-introduction-0000001053732605" target="_blank">HMS Auth Service</a>
 
-## Table of Contents
+## Clone the Repository
 
- * [Introduction](#introduction)
- * [Supported Environments](#supported-environments)
- * [Getting Started](#getting-started)
- * [Result](#result)
- * [License](#license)
+### With SSH
+```
+git clone git@github.com:BAU-COOP4423/W5-HMS-Account-Kit-Auth-Service.git
+```
 
- 
-## Introduction
-Android sample code encapsulates APIs of the HUAWEI Account Kit server. It provides sample program for your reference or usage.
-The following describes of Android sample code.
+### With HTTPS
+```
+git clone https://github.com/BAU-COOP4423/W5-HMS-Account-Kit-Auth-Service.git
+```
 
-hmssample:    Sample code packages. This package  contains code that implements Sign, SignInCode, SilentSignIn, SignOut and CancelAuthorization.
-logger:       This packages contains code that implements logger View.
-
-	
-## Supported Environments
-Android SDK Version >= 23 and JDK version >= 1.8 is recommended.
-
-
-## Getting Started
-
-   1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your divice or simulator which have installed latest Huawei Mobile Service(HMS).
-   2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).
-   3. Create an app and configure the app information in AppGallery Connect. 
-        See details: [HUAWEI Account Kit Development Preparations](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050048870)
-   4. To build this demo, please first import the demo in the Android Studio (3.x+).
-   5. Configure the sample code:
-        (1) Download the file "agconnect-services.json" of the app on AGC, and add the file to the app root directory(\app) of the demo.
-        (2) Change the value of applicationid in the app-level build.gradle file of the sample project to the package name of your app.
-   6. Run the sample on your Android device or emulator.
-
- 
-## Result
-This demo provides demonstration for following scenarios:
-1. ID-Token Mode Sign In. 
-2. Authorization Code Mode Sign In. 
-3. Silent Sign In.
-4. Sign out.
-5. Cancel Authorization.
-
-![account sample result](images/account_sample_result.jpg)
+## Utilized resources
+- <a href="https://developer.huawei.com/consumer/en/codelabsPortal/carddetails/HMSAccounts">HMS Account Kit Integration Codelab Steps</a>
 
 
-## License
-Account-kit Android sample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+#### Note:
+> Do not hesitate to open an <a href="https://github.com/BAU-COOP4423/W3-MVVM-Retrofit/issues" target="_blank">issue</a> for your questions.
+
